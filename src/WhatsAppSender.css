@@ -1,0 +1,109 @@
+/* WhatsAppSender.css */
+.whatsapp-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.whatsapp-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #25D366;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #25D366;
+    box-shadow: 0 0 0 2px rgba(37, 211, 102, 0.2);
+    outline: none;
+}
+
+.form-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-hint {
+    font-size: 13px;
+    color: #777;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 5px;
+    border-left: 3px solid #e74c3c;
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit-button:hover {
+    background-color: #128C7E;
+}
+
+.submit-button:active {
+    transform: scale(0.98);
+}
+
+.info-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
